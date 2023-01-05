@@ -7,3 +7,15 @@ body {
 .container {
   max-width: 400px;
 }
+
+.enter {
+  font-size: 1.1em;
+}
+
+.icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
