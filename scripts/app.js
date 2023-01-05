@@ -20,6 +20,10 @@ const updateUI = data => {
       <span>${weather.Temperature.Imperial.Value}</span>
       <span>&deg;F</span>
    </div>
+   <div class="display-4 my-4">
+      <span>${weather.Temperature.Metric.Value}</span>
+      <span>&deg;C</span>
+   </div>
   `;
 
   // update the night/day & icon images
